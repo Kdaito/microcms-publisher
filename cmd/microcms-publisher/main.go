@@ -36,7 +36,7 @@ func main() {
 	// 	panic(err)
 	// }
 
-	log.Printf("Hello, world!")
+	log.Printf("Hello, world from cmd !")
 
 	// for _, file := range files {
 	// 	log.Printf("Processing %s", file)

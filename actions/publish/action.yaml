@@ -11,4 +11,5 @@ runs:
     - name: Install dependencies
       shell: bash
       run: |
-        go run ${{ github.action_path }}/main.go
+        go run ../../cmd/microcms-publisher/main.go
+      working-directory: ${{ github.action_path }}
